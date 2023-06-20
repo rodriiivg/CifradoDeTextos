@@ -5,11 +5,11 @@ function encriptar() {
     let defecto = document.getElementById("defecto");
   
     let textoCifrado = texto
-      .replace(/e/gi, "res")
-      .replace(/i/gi, "per")
-      .replace(/a/gi, "vita")
-      .replace(/o/gi, "inter")
-      .replace(/u/gi, "magna");
+      .replace(/e/gi, "xp")
+      .replace(/i/gi, "ew")
+      .replace(/a/gi, "kp")
+      .replace(/o/gi, "ñl")
+      .replace(/u/gi, "ñsl");
   
     if (texto.length != 0) {
       document.getElementById("texto").value = textoCifrado;
@@ -31,11 +31,11 @@ function encriptar() {
     let defecto = document.getElementById("defecto");
   
     let textoCifrado = texto
-      .replace(/res/gi, "e")
-      .replace(/per/gi, "i")
-      .replace(/vita/gi, "a")
-      .replace(/inter/gi, "o")
-      .replace(/magna/gi, "u");
+      .replace(/xp/gi, "e")
+      .replace(/ew/gi, "i")
+      .replace(/kp/gi, "a")
+      .replace(/ñl/gi, "o")
+      .replace(/ñsl/gi, "u");
     
       if (texto.length != 0) {
         document.getElementById("texto").value = textoCifrado;
